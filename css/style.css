@@ -1,0 +1,27 @@
+body {
+  color: #333;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.l-header {
+  border: 3px solid blue; }
+
+.l-main {
+  border: 3px solid red; }
+
+.l-footer {
+  border: 3px solid green; }
+
+.c-flex {
+  display: flex;
+  border: 3px solid blue;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.c-card {
+  border: 3px solid pink;
+  width: 240px; }
+
+.c-image {
+  width: 100%; }
