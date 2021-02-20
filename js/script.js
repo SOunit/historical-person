@@ -10,8 +10,8 @@
     image.classList.add('c-image');
     divCard.appendChild(image);
 
-    // set card to flex
-    const $flexBox = document.querySelector('.js-flex');
+    // set card to flex box
+    const $flexBox = document.querySelector('.js-disp-cards');
     $flexBox.appendChild(divCard);
   };
 
@@ -20,8 +20,6 @@
   xhr.open('GET', '../data/image.json');
   xhr.onload = () => {
     let responseJson = JSON.parse(xhr.response);
-    console.log(responseJson);
-
     responseJson.forEach((element) => {
       addCard(element.fileName);
     });

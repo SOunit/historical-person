@@ -44,6 +44,8 @@
 @import 'object/component/_flex';
 @import 'object/component/_card';
 @import 'object/component/_image';
+@import 'object/component/c-header-title.scss';
+@import 'object/component/c-header-text.scss';
 
 // =========================================
 // - Project
@@ -68,3 +70,9 @@
 // 小さい単位をComponent
 // Componentの集まりをProject
 // やったー！
+
+// =========================================
+// utility
+// =========================================
+@import 'object/utility/u-margin-bottom-5.scss';
+@import 'object/utility/u-margin-top-5.scss';
